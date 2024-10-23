@@ -32,7 +32,7 @@ const Main = () => {
         .then(data=>setRecipes(data))
     }, []);
 
-    return (<main className='max-w-screen-xl mx-auto sm:px-2 py-24'>
+    return (<main className='max-w-screen-xl mx-auto sm:px-2 py-24 bg-white'>
         <div className='text-center max-w-4xl mx-auto'>
           <h2 className='text-main text-4xl font-semibold'>Our Recipes</h2>
           <p className='text-base text-[#150B2B99] mt-6'>Lorem ipsum dolor sit amet consectetur. Proin et feugiat senectus vulputate netus pharetra rhoncus. Eget urna volutpat curabitur elementum mauris aenean neque. </p>
